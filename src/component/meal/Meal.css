@@ -1,0 +1,40 @@
+.cart{
+    height: 45rem;
+    border: 1px solid rgb(199, 194, 194);
+    border-radius: .7rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: -3px 5px 26px 8px rgb(0 0 0 / 30%);
+}
+.cart img{
+    width: 25.2rem;
+    height: 27rem;
+    margin: .8rem;
+    text-align: center;
+    border-radius: .7rem;
+}
+.details{
+    padding:0 1.4rem;
+    margin-top: 1rem;
+}
+.details h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: .7rem 0;
+}
+.details h1{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.add-btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1.2rem 0;
+    border: none;
+    background-color: rgb(32, 30, 54);
+    color: #fff;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
